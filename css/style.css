@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(../img/f.webp);
+    background-position:top;
+    background-size: cover;
+    text-align: center;
+}
+
+.glass{
+    background-color: rgb(67, 48, 54,0.6);
+    max-width: 500px;
+    margin: auto;
+    backdrop-filter: blur(1.5px);
+    }
+
+/* TIPOGRAFÃAS */
+
+@font-face{
+    font-family: "animalesfantasticos";
+    src: url('../fonts/AnimalesFantastic.ttf');
+    font-display: swap;
+}
+
+@font-face{
+    font-family: "harington";
+    src: url('../fonts/HARNGTON.TTF');
+    font-display: swap;
+}
+
+@font-face{
+    font-family: "HarryP";
+    src: url('../fonts/HarryP.ttf');
+    font-display: swap;
+}
+
+@font-face{
+    font-family: "HarryPotter";
+    src: url('../fonts/HarryPotterAndTheDingbats.ttf');
+    font-display: swap;
+}
+
+
+@font-face{
+    font-family: "lumos";
+    src: url('../fonts/Lumoslatino.ttf');
+    font-display: swap;
+}
+
+/* CSS */
+
+section{    
+    width: 80%;
+    margin: auto; 
+    min-height: 70vh; /*sigo sin entender bien como funciona esto, sale masterclass? jaja*/
+}
+
+.schema{
+    font-family: "animalesfantasticos";
+    font-size: 14px;
+    color: #BEB58E;
+    padding: 20px;
+}
+
+.schema h1{
+    font-family: "HarryP";
+    color: #BEB58E;
+    text-align: center;
+    display: grid;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.schema img{
+    max-width:400px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.schema p{
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.letra{
+    line-height: 25px;
+}
+
+.a{
+    font-family: "harrington";
+    font-size: 26px;
+    color: #BEB58E;
+}
+
+.b{
+    font-family: "animalesfantasticos";
+    font-size: 20px;
+    color: #BEB58E;
+}
+
+.c{
+    font-family: "HarryP";
+    font-size: 25px;
+    color:#BEB58E;
+    letter-spacing: 4px;
+}
+
+.d{
+    font-family: "HarryPotter";
+    font-size: 15px;
+    color: #BEB58E;
+}
+
+.e{
+    font-family:"harrington";
+    font-size: 18px;
+    color: #BEB58E;
+}
+
+.f{
+    font-family: "lumos";
+    font-size: 22px;
+    color: #BEB58E;
+}
+
+.g{
+    font-family: "harrington";
+    font-size: 29px;
+    color: #BEB58E;
+}
+
+.h{
+    font-family: "lumos";
+    font-size: 22px;
+    color: #BEB58E;
+    letter-spacing: 2px;
+}
+
+.i{
+    font-family: "HarryP";
+    font-size: 25px;
+    color: #BEB58E;
+    letter-spacing: 2px;
+    line-height: 1px;
+}
+
+.j{
+    font-family: "animalesfantasticos";
+    font-size: 21px;
+    color: #BEB58E;
+}
+
+.k{
+    font-family: "lumos";
+    font-size: 26px;
+    color: #BEB58E;
+}
+
+.l{
+    font-family: "harrington";
+    font-size: 25px;
+    color: #BEB58E;
+}
+
+audio {
+    text-decoration: none;
+    width:400px;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: #BEB58E;
+}
+
+.buttons{
+    padding:25px 0px 25px 0px ;
+}
+
+.buttons a {
+    text-decoration: none;
+    font-family: "animalesfantasticos";
+    color: #BEB58E;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 10px;
+    margin: 6px;
+    display: inline-block;
+    background-color: #1b1b1b;
+    width: 185px;
+}
+
+.buttons a:hover {
+    color: #1b1b1b ;
+    background-color: #BEB58E;
+}
+
+.buttons a image:hover{
+    color: #1b1b1b;
+}
+
+footer{
+    padding: 12px;
+}
+
+footer p{
+    font-family: "harrington";
+    font-size: 18px;
+    color:#BEB58E;
+    text-align: center;
+}
+
